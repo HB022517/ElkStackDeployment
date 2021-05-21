@@ -1,1 +1,54 @@
+1.	Add the sample web log data to Kibana.
+click add sample Web Log Data i
+2.	Answer the following questions:
+o	In the last 7 days, how many unique visitors were located in India?
+250
+o	In the last 24 hours, of the visitors from China, how many were using Mac OSX?
+8
+o	In the last 2 days, what percentage of visitors received 404 errors? 0%
+How about 503 errors?  0%
+
+o	In the last 7 days, what country produced the majority of the traffic on the website? China 39
+o	Of the traffic that's coming from that country, what time of day had the highest amount of activity
+Noon and 1 o'clock
+o	List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
+
+3.	Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
+o	Locate the time frame in the last 7 days with the most amount of bytes (activity).
+
+o	In your own words, is there anything that seems potentially strange about this activity?
+There was only 1 visitor during the 2 o'clock hour with a very high amount of activity attemmpting to install something that may have been malicious.
+gz= Archive file
+css= is a cascading style sheet with html elements
+zip= is an archive file format that supports lossless data compression.
+deb=  DEB file is a standard Unix archive that contains two bzipped or gzipped archives, one for the installer control information and another for the actual installable data.
+rpm=  is an installation package originally developed for the Red Hat Linux operating system, but now used by many other Linux distributions as well.
+
+4.	Filter the data by this event.
+o	What is the timestamp for this event? May 16, 2021 @ 22:57:28.552
+o	What kind of file was downloaded? rpm file was downloaded
+o	From what country did this activity originate? 
+India
+o	What HTTP response codes were encountered by this visitor?
+200 which indicates success
+5.	Switch to the Kibana Discover page to see more details about this activity.
+o	What is the source IP address of this activity? 35.143.166.159
+o	What are the geo coordinates of this activity?
+{
+  "lat": 43.34121,
+  "lon": -73.6103075
+}
+
+o	What OS was the source machine running?
+win 8
+o	What is the full URL that was accessed?
+	https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.3.2-i686.rpm
+o	From what website did the visitor's traffic originate?
+http://facebook.com/success/jay-c-buckey
+6.	Finish your investigation with a short overview of your insights.
+On May 16, 2021 @ 22:57:28.552
+o	What do you think the user was doing?
+o	Was the file they downloaded malicious? If not, what is the file used for?
+o	Is there anything that seems suspicious about this activity?
+o	Is any of the traffic you inspected potentially outside of compliance guidlines?
 
