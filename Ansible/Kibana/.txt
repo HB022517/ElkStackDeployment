@@ -46,9 +46,9 @@ o	What is the full URL that was accessed?
 o	From what website did the visitor's traffic originate?
 http://facebook.com/success/jay-c-buckey
 6.	Finish your investigation with a short overview of your insights.
-On May 16, 2021 @ 22:57:28.552
+
 o	What do you think the user was doing?
 o	Was the file they downloaded malicious? If not, what is the file used for?
 o	Is there anything that seems suspicious about this activity?
 o	Is any of the traffic you inspected potentially outside of compliance guidlines?
-
+        On May 16, 2021 @ 22:57::28.552, a user from India had a high of activity trying to install an RPM file which is an istallation package. Upon first glance it seemed to be malicious activity, but the user recieved code 200 which means everything was ok.Nothing seemed  
