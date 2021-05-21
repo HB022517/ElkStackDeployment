@@ -1,0 +1,13 @@
+sudo /etc/init.d/firewalld start permanent
+
+
+sudo /etc/init.d/firewalld start permanent
+sudo firewall-cmd --new-zone=web --permanent
+
+sudo firewall-cmd --permanent --zone=public --add-service=http --add-service=https --add-service=pop3 --add-service=smtp
+
+sudo firewall-cmd --zone=drop --add-rich-rule=’rule family=”ipv4” source address=10.208.56.23 reject’ --permanent
+
+
+
+ssh -i ~/.ssh/id_rsa azadmin@40.121.10.153 Jumpbox cmd
