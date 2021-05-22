@@ -103,7 +103,7 @@ SSH into the control node and follow the steps below:
 - Copy the Deployment file to /etc/ansible/roles.
 - Update the /etc/ansible/hosts to include remote_user=AZADMIN the user name for each VM.
 - Update the /etc/ansible/hosts file to include the IP address in the webservers & ELK groups. it is paramount to uncomment the webservers selection and add the ELK section so it will work
-- Run the playbook, and navigate to http://137.135.68.188:5601/app/kibana to make sure the install worked as expected.
+- Run the playbook, and navigate to http://40.76.213.190:5601/app/kibana to make sure the install worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 /etc/ansible/elk-playbook.yml should be copied to your directory.
