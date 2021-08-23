@@ -33,7 +33,7 @@ What does Filebeat watch for?
 Filebeat monitors log data, events, and files, then forwards them to Elastisearch or Logstash to be indexed.
  
 What does Metricbeat record?_
-- Metricbeat collects differnt metrics from the OS and services running on the server.
+- Metricbeat collects different metrics from the OS and services running on the server.
 
 - The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
